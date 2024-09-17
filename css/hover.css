@@ -1,0 +1,46 @@
+#last--nav:hover{
+    background-color: rgb(0, 0, 0);
+
+  color: #E67817;
+}
+
+nav a:hover{
+    color: #E67817;
+    transition: all 1s;
+  animation: ease-out;
+}
+
+.connector img:hover{
+    transform: scale(1.1);
+
+}
+
+.menu:hover{
+    transform: translateY(-1.4rem);
+}
+.menu img:hover{
+    transform: scale(1.2);
+}
+
+.more--menu:hover{
+   transform: translate(0.3rem);
+}
+
+.extra3:hover{
+transform: scale(1.1);
+}
+.extra1:hover{
+    transform: scale(1.1);
+    } 
+
+.extra2:hover {
+    transform: scale(1.1);
+    }
+
+    .below--button:hover{
+        transform: translate(0.3rem);
+    }
+
+    .about--us button:hover{
+        background-color: black;
+    }
