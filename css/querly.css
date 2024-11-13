@@ -366,6 +366,7 @@ max-width: 120rem;
     }
   
   }
+
 /*
 @media(max-width:43rem){
 
@@ -374,6 +375,23 @@ max-width: 120rem;
 */
 
 @media(max-width:28rem){
+
+  .three{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .three input{
+    padding: 10px;
+  }
+  .three button{
+    padding: 9px;
+    background-color: #f30c0c;
+    color: #ffffff;
+    border: none;
+  }
   .section--3{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -387,7 +405,22 @@ max-width: 120rem;
     padding: 0px;
     overflow: hidden;
   }
+  .section--4{
+ display: flex;
+ flex-direction: column;
+margin-top: 800px;
+margin-left: -69px;
+gap: 20px;
 
+
+   
+  }
+  .nice{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .menu img{
     width: 100px;
     height: 100px;
@@ -445,5 +478,51 @@ gap: 0.6;
 display: none;
   }
 }
+
+@media(max-width:410px){
+
+  .section--4{
+    display: flex;
+    flex-direction: column;
+   margin-top: 800px;
+   margin-left: -80px;
+   gap: 20px;
+   
+   
+      
+     }
+     .three{
+      display: flex;
+      flex-direction: column;
+      gap: 0rem;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .section--7{
+   
+    
+    
+      gap: 10rem;
+  
+    }
+    }
+    .three input{
+      padding: 10px;
+    }
+    .three button{
+      padding: 9px;
+      background-color: #f30c0c;
+      color: #ffffff;
+      border: none;
+    }
+     .nice{
+       max-width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+    
+    }
 
 
